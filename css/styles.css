@@ -1,0 +1,147 @@
+/* General Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #5D5D5D;
+}
+
+h1, h2 {
+  font-family: "Satisfy", cursive;
+}
+
+a {
+  text-decoration: none;
+  color: #5D5D5D;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+/* Navigation */
+h1, nav, ul, li {
+  display: inline-block;
+  padding: 0 5%;
+}
+
+.navbar {
+  position: fixed;
+  background-image: url(../img/cloth_background.png);
+  width: 100%;
+}
+
+h1 {
+  color: #79a198;
+  font-size: 3.5rem;
+  margin: 0;
+  text-align: left;
+}
+
+nav {
+  width: 60%;
+  float:right;
+  text-align: right;
+  padding-top: 15px;
+}
+
+ul {
+  width: 100%;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #5D5D5D;
+  font-weight:700;
+  font-size: 1.1rem;
+}
+
+/* Content Area General Styles */
+.content_area {
+  text-align: center;
+}
+
+#portfolio, #connect {
+  width: 60%;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+/* About Section */
+#about {
+  background-color: #79a198;
+  padding: 12% 5% 10% 5%;
+  color: #fff;
+}
+
+#about img {
+  border-radius: 100%;
+  border: 5px solid #E9E9E9;
+  float: left;
+}
+
+#about p {
+  display: inline-block;
+  width: 50%;
+}
+
+/* Resume Button */
+button {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 50px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 1%;
+}
+
+button a {
+  text-decoration: none;
+  color: #79a198;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+/* Portfolio Section */
+#portfolio h2 {
+  padding-top: 12%;
+}
+
+#portfolio img {
+  border: 2px solid #E9E9E9;
+}
+
+/* Connect Section */
+.fa-envelope:before {
+  font-size: 2.8rem;
+}
+
+.fa-github:before, .fa-linkedin:before {
+  font-size: 3rem;
+}
+
+i {
+  padding: 4%;
+}
+
+/* Footer */
+footer {
+  height: 70px;
+  background-color: #79a198;
+  color: #fff;
+  padding: 1.5%;
+  text-align: left;
+}
+
+footer p {
+  font-size: .8rem;
+}
