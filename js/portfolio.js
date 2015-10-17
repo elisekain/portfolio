@@ -1,6 +1,4 @@
-var sections = document.getElementsByClassName('sec');
-
-var buttons = document.getElementsByClassName('inner');
-buttons.onclick = function(){
-  console.log(this.href);
-}
+// Automatically set year for copyright in footer
+var year = new Date();
+year = year.getFullYear();
+document.getElementById("year").textContent = year;
