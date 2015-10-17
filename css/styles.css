@@ -93,7 +93,7 @@ h2 {
 }
 
 /* Resume Button */
-button {
+/*.button {
   display: block;
   margin: 0 auto;
   width: 200px;
@@ -102,9 +102,18 @@ button {
   border: none;
   border-radius: 5px;
   padding: 1%;
-}
+}*/
 
-button a {
+.button{
+  display: block;
+  margin: 30px auto 0 auto;
+  width: 200px;
+  height: 50px;
+  line-height:50px;
+  vertical-align: middle;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
   text-decoration: none;
   color: #79a198;
   font-weight: 700;
