@@ -93,16 +93,6 @@ h2 {
 }
 
 /* Resume Button */
-/*.button {
-  display: block;
-  margin: 0 auto;
-  width: 200px;
-  height: 50px;
-  background-color: #fff;
-  border: none;
-  border-radius: 5px;
-  padding: 1%;
-}*/
 
 .button{
   display: block;
@@ -118,6 +108,7 @@ h2 {
   color: #79a198;
   font-weight: 700;
   font-size: 1.25rem;
+  transition:
 }
 
 /* Portfolio Section */
@@ -153,4 +144,20 @@ footer {
 
 footer p {
   font-size: .8rem;
+}
+
+
+/* CSS Transitions */
+.navbar li, .button, i {
+  transition: all 0.5s ease;
+}
+
+i:hover, .navbar li:hover, .button:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+i:hover {
+  opacity: 0.5;
 }
