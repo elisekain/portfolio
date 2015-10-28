@@ -23,13 +23,14 @@ h3 {
 }
 
 /* Navigation */
-h1, nav, ul, li {
+h1, nav, nav ul, nav li {
   display: inline-block;
   padding: 0 5%;
 }
 
 .navbar {
   position: fixed;
+  /* Background pattern from subtlepatterns.com */
   background-image: url(../img/cloth_background.png);
   width: 100%;
 }
@@ -118,6 +119,15 @@ h2 {
 
 #portfolio img {
   border: 2px solid #E9E9E9;
+}
+
+.project_description ul {
+  display: block;
+  list-style-type: disc;
+}
+
+.project_description li {
+  text-align: left;
 }
 
 /* Connect Section */
