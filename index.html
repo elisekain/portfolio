@@ -3,7 +3,7 @@
 	<head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Satisfy|Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Satisfy%7CLato:400,700' rel='stylesheet' type='text/css'>
     <link type="text/css" rel="stylesheet" href="css/normalize.css">
     <link type="text/css" rel="stylesheet" href="css/styles.css">
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -24,28 +24,78 @@
       </div>
     </header>
     <div class="content_area">
-      <!-- About Section -->
-      <div id="about">
-        <!-- Profile Picture -->
-        <img src="img/e_kain_small_square.jpg" alt="picture of Elise Kain">
-        <!-- Intro Text and Resume Link -->
-        <h2>About</h2>
-        <p>Your head is not an artifact! Could someone survive inside a transporter buffer for 75 years? In all trust, there is the possibility for betrayal. Some days you get the bear, and some days the bear gets you. Maybe if we felt any human loss as keenly as we feel one of those close to us, human history would be far less bloody.
-					<a class="button" href="#">Resume</a>
+	    <!-- About Section -->
+	    <div id="about">
+	      <!-- Profile Picture -->
+	      <img src="img/e_kain_small_square.jpg" alt="picture of Elise Kain">
+	      <!-- Intro Text and Resume Link -->
+	      <h2>About</h2>
+	      <h3>Web Developer &mdash; Charlottesville, VA</h3>
+				<p>I'm a strategic communications professional turned web developer focused on creating user-friendly software. I have demonstrated success quickly learning technical concepts and then continually striving to uncover deeper understanding. I'm most delighted when sharing my expertise helps others achieve their goals.
+					<a class="button" href="assets/ekain_resume.pdf">Resume</a>
 				</p>
-
-
-      </div>
+	    </div>
 
       <!-- Portfolio Section -->
       <div id="portfolio">
         <h2>Portfolio</h2>
+
+				<!-- Lyricks Applications -->
+				<a href="https://lyricks.herokuapp.com/">
+					<h3>Lyricks | Generate Stylized Cards from Song Lyrics</h3>
+					<img src="img/lyricks.png" alt="lyrick application">
+				</a>
+
+				<!-- Technologies Used -->
+				<div>
+					<div class="github_tag">
+						<a href="https://github.com/elisekain/lyricks">
+							<p class="github">View GitHub Repository:</p>
+							<i class="fa fa-github"></i>
+						</a>
+					</div>
+					<div class="tech_tag">Ruby on Rails</div>
+					<div class="tech_tag">Sass</div>
+					<div class="tech_tag">Heroku</div>
+					<div class="tech_tag">AWS</div>
+					<div class="tech_tag">RSpec</div>
+					<div class="tech_tag">Git / GitHub</div>
+				</div>
+
+				<p>Lyricks generates decorative cards with a user's favorite song lyrics. Inspired by <a href="http://www.litographs.com/" target="_blank" class="description_link">Litographs</a> for books. It allows the user to:</p>
+				<ul class="project_description">
+					<li>create cards by entering a title and song lyrics,</li>
+					<li>select an icon to adorn a card,</li>
+					<li>select the card's text color and font,</li>
+					<li>make the card public or private,</li>
+					<li>add genre tags to a card,</li>
+					<li>view other user's public cards (but not edit/delete their cards)</li>
+					<li>browse cards by genre,</li>
+					<li>edit/delete user profile</li>
+					<li>and upload a profile picture.</li>
+				</ul>
 
         <!-- Alpha Zulu Flashcards -->
         <a href="http://elisekain.github.io/flashcards/">
           <h3>Alpha - Zulu | Flashcard Application</h3>
           <img src="img/alpha_zulu.png" alt="alpha zulu flashcards">
         </a>
+
+				<!-- Technologies Used -->
+				<div>
+					<div class="github_tag">
+						<a href="https://github.com/elisekain/flashcards">
+							<p class="github">View GitHub Repository:</p>
+							<i class="fa fa-github"></i>
+						</a>
+					</div>
+					<div class="tech_tag">HTML</div>
+					<div class="tech_tag">CSS</div>
+					<div class="tech_tag">JavaScript</div>
+					<div class="tech_tag">jQuery</div>
+					<div class="tech_tag">Git / GitHub</div>
+				</div>
+
         <p>Alpha - Zulu is a flashcard application to help aspiring private pilots memorize important information like the phonetic alphabet and emergency procedure checklists. It allows the user to:</p>
 				<ul class="project_description">
 					<li>flip to the opposite side of the card,</li>
@@ -59,23 +109,41 @@
         <!-- Geise Research Group Website -->
         <a href="http://faculty.virginia.edu/geise/">
           <h3>Geise Research Group Website</h3>
-          <img src="img/geise_research.png" alt="rock paper scissors game">
+          <img src="img/geise_research.png" alt="geise research group">
         </a>
-        <p>You did exactly what you had to do. You considered all your options, you tried every alternative and then you made the hard choice. Ensign Babyface! For an android with no feelings, he sure managed to evoke them in others.</p>
+
+				<!-- Technologies Used -->
+				<div>
+					<div class="tech_tag">Bootstrap</div>
+					<div class="tech_tag">HTML</div>
+					<div class="tech_tag">CSS</div>
+					<div class="tech_tag">jQuery</div>
+				</div>
+
+        <p>The Geise Research Group Website is a static website built using the Twitter Bootstrap framework. It shares information about the group's polymer membrane research at the University of Virginia.</p>
 
         <!-- Ronald McDonald House Website -->
         <a href="http://rmhcharlottesville.org/">
           <h3>Ronald McDonald House Website</h3>
-          <img src="img/rmhc.png" alt="rock paper scissors game">
+          <img src="img/rmhc.png" alt="ronald mcdonald house charlottesville">
         </a>
-        <p>You did exactly what you had to do. You considered all your options, you tried every alternative and then you made the hard choice. Ensign Babyface! For an android with no feelings, he sure managed to evoke them in others.</p>
+
+				<!-- Technologies Used -->
+				<div>
+					<div class="tech_tag">WordPress</div>
+					<div class="tech_tag">HTML</div>
+					<div class="tech_tag">CSS</div>
+					<div class="tech_tag">JavaScript</div>
+				</div>
+
+        <p>The Charlottesville Ronald McDonald House website is managed using WordPress. The RMHC Global WordPress template is customized to meet the Charlottesville House's specific needs.</p>
 
       </div>
 
       <!-- Connect Section -->
       <div id="connect">
         <h2>Connect</h2>
-        <a href="mailto:contact@elisekain.com"><i class="fa fa-envelope"></i></a>
+        <a href="mailto:elise.kain@gmail.com"><i class="fa fa-envelope"></i></a>
         <a href="https://github.com/elisekain"><i class="fa fa-github"></i></a>
         <a href="https://www.linkedin.com/in/elisekain"><i class="fa fa-linkedin"></i></a>
       </div>

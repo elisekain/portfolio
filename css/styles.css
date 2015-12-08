@@ -18,8 +18,17 @@ a {
   color: #5D5D5D;
 }
 
+a.description_link {
+  color: #79a198;
+}
+
 h3 {
   font-size: 1.5rem;
+  margin: 5% 0;
+}
+
+#about h3 {
+  margin: 0;
 }
 
 /* Navigation */
@@ -54,9 +63,7 @@ ul {
 }
 
 .navbar a {
-  text-decoration: none;
-  color: #5D5D5D;
-  font-weight:700;
+  font-weight: 700;
   font-size: 1.1rem;
 }
 
@@ -78,7 +85,7 @@ h2 {
 /* About Section */
 #about {
   background-color: #79a198;
-  padding: 12% 5% 10% 5%;
+  padding: 12% 5% 5% 5%;
   color: #fff;
 }
 
@@ -94,8 +101,7 @@ h2 {
 }
 
 /* Resume Button */
-
-.button{
+.button {
   display: block;
   margin: 30px auto 0 auto;
   width: 200px;
@@ -109,7 +115,6 @@ h2 {
   color: #79a198;
   font-weight: 700;
   font-size: 1.25rem;
-  transition:
 }
 
 /* Portfolio Section */
@@ -130,16 +135,39 @@ h2 {
   text-align: left;
 }
 
+.fa-github:before {
+  font-size: 3.5rem;
+}
+
+.github {
+  display: inline-block;
+}
+
+.github_tag .fa-github:before {
+  font-size: 2rem;
+}
+
+/* Tech Tags */
+.tech_tag {
+  display: inline-block;
+  background-color: #79a198;
+  color: white;
+  padding: 2%;
+  margin: 2% 0.5%;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
 /* Connect Section */
-.fa-envelope:before {
+#connect .fa-envelope:before {
   font-size: 2.8rem;
 }
 
-.fa-github:before, .fa-linkedin:before {
+#connect .fa-github:before, #connect .fa-linkedin:before {
   font-size: 3rem;
 }
 
-i {
+#connect i {
   padding: 4%;
 }
 
@@ -170,4 +198,65 @@ i:hover, .navbar li:hover, .button:hover {
 
 i:hover {
   opacity: 0.5;
+}
+
+/* Media Queries */
+@media screen and (max-width: 870px) {
+  #about img {
+    float: none;
+  }
+
+  #portfolio, #connect, #about p {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  h1, nav {
+    width: 100%;
+    text-align: center;
+    padding-top: 0;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  #about {
+    padding-top: 20%;
+  }
+
+  #about img {
+    width: 200px;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  #about p {
+    font-size: 0.9rem;
+  }
+
+  footer {
+    height: 45px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  #about {
+    padding-top: 30%;
+  }
+
+  #portfolio img {
+    width: 100%;
+  }
+
+  #portfolio, #connect, #about p {
+    width: 95%;
+  }
 }
